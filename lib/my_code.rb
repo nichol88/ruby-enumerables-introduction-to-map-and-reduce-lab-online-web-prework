@@ -30,6 +30,7 @@ def map_to_square(source_array)
   result = []
   while count < source_array.length do
     result.push(source_array[count] ** 2)
+    count += 1
   end
   result
 end
