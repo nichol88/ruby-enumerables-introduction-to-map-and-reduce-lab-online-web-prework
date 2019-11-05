@@ -39,6 +39,7 @@ def reduce_to_total(source_array, starting_point = 0)
   total = 0
   count = starting_point
   while count < source_array.length do
+    puts "[#{count}] Total: #{total} Current value: #{source_array[count]}"
     total += source_array[count]
     count += 1
   end
