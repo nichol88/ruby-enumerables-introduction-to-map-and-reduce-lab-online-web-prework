@@ -7,9 +7,12 @@ def map_to_negativize(source_array)
     result.push(source_array[count] * -1)
     count += 1
   end
+
+  result
 end
 
 def map_to_no_change(source_array)
+  source_array
 end
 
 def map_to_double(source_array)
